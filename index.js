@@ -19,4 +19,4 @@ var PavaElectrica = /** @class */ (function () {
 }());
 var pavitaCocina = new PavaElectrica(false, 25, "mate");
 var pavitaPatio = new PavaElectrica(true, 85, "tesito");
-console.log("La pava electrica está a", pavitaCocina.obtenerTemperatura(), "de temperatura");
+console.log("La pava electrica está a " + pavitaCocina.obtenerTemperatura() + " de temperatura");

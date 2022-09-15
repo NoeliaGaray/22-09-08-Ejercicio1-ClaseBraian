@@ -24,4 +24,4 @@ var AutoLindo = /** @class */ (function () {
 }());
 var autoNuevo = new AutoLindo(20, 108.8, 'automatico', false, 'rojo');
 var autoViejo = new AutoLindo(30, 103.2, 'manual', true, 'verde');
-console.log('El auto viejo tiene una caja de cambio', autoViejo.cajaAutomaticaManual(),'y es de color', autoViejo.colorAuto);
+console.log("El auto viejo tiene una caja de cambio " + autoViejo.cajaAutomaticaManual());
